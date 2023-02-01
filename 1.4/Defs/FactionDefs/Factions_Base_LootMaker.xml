@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_GenericIndustrialRaidLootMaker] ========== -->
+	<ThingSetMakerDef Name="ESCP_GenericIndustrialRaidLootMaker_Base">
+		<defName>ESCP_GenericIndustrialRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>MedicineIndustrial</li>
+						<li>ComponentIndustrial</li>
+						<li>MealSurvivalPack</li>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+	<!-- ========== [ESCP_GenericIndustrialPirateRaidLootMaker] ========== -->
+	<ThingSetMakerDef Name="ESCP_GenericIndustrialPirateRaidLootMaker_Base">
+		<defName>ESCP_GenericIndustrialPirateRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>MedicineIndustrial</li>
+						<li>MealSurvivalPack</li>
+						<li>Flake</li>
+						<li>Yayo</li>
+						<li>GoJuice</li>
+						<li>WakeUp</li>
+						<li>SmokeleafJoint</li>
+						<li>Luciferium</li>
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+</Defs>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_NonPlayerFactionBase_Industrial] ========== -->
+	<FactionDef ParentName="OutlanderFactionBase" Name="ESCP_NonPlayerFactionBase_Industrial" Abstract="True">
+		<allowedCultures Inherit="False"/>
+		<structureMemeWeights Inherit="False">
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Archist>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
+			<ESCP_Structure_OriginLorkhanCult MayRequire="Ludeon.RimWorld.Ideology">1</ESCP_Structure_OriginLorkhanCult>
+		</structureMemeWeights>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0.99</Baseliner>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.01</Sanguophage>
+			</xenotypeChances>
+		</xenotypeSet>
+		<pawnGroupMakers Inherit="false"/>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<raidLootMaker>ESCP_GenericIndustrialRaidLootMaker</raidLootMaker>
+	</FactionDef>
+	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialCivil] ========== -->
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Industrial" Name="ESCP_NonPlayerFactionBase_IndustrialCivil" Abstract="True">
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		</disallowedMemes>
+		<configurationListOrderPriority>10</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialRough] ========== -->
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Industrial" Name="ESCP_NonPlayerFactionBase_IndustrialRough" Abstract="True">
+		<naturalEnemy>true</naturalEnemy>
+		<configurationListOrderPriority>20</configurationListOrderPriority>
+	</FactionDef>
+	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialPirate] ========== -->
+	<FactionDef ParentName="PirateBandBase" Name="ESCP_NonPlayerFactionBase_IndustrialPirate" Abstract="True">
+		<allowedCultures Inherit="False"/>
+		<structureMemeWeights Inherit="False">
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Archist>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
+			<ESCP_Structure_OriginLorkhanCult MayRequire="Ludeon.RimWorld.Ideology">1</ESCP_Structure_OriginLorkhanCult>
+		</structureMemeWeights>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0.99</Baseliner>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.01</Sanguophage>
+			</xenotypeChances>
+		</xenotypeSet>
+		<pawnGroupMakers Inherit="false"/>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<raidLootMaker>ESCP_GenericIndustrialRaidLootMaker</raidLootMaker>
+	</FactionDef>
+</Defs>

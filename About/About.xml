@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ESCP - Industrial Factions Dummy</name>
+	<packageId>SirMashedPotato.ESCP.IndustrialFactionsDummy</packageId>
+	<modVersion IgnoreIfNoMatchingField="True">1.0.1</modVersion>
+	<author>SirMashedPotato</author>
+	<supportedVersions>
+    	<li>1.3</li>
+    	<li>1.4</li>
+	</supportedVersions>
+	<description>A dummy mod that enables industrial non-player factions for the ESCP races.
+	</description>
+</ModMetaData>
