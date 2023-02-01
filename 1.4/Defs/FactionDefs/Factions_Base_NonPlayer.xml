@@ -25,10 +25,18 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 		</disallowedMemes>
+		<colorSpectrum>
+			<li>(0.35, 0.30, 0.60)</li>
+			<li>(0.45, 0.40, 0.90)</li>
+		</colorSpectrum>
 		<configurationListOrderPriority>10</configurationListOrderPriority>
 	</FactionDef>
 	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialRough] ========== -->
 	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Industrial" Name="ESCP_NonPlayerFactionBase_IndustrialRough" Abstract="True">
+		<colorSpectrum>
+			<li>(0, 0.4, 0.94)</li>
+			<li>(0.64, 0.8, 1)</li>
+		</colorSpectrum>
 		<naturalEnemy>true</naturalEnemy>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
 	</FactionDef>

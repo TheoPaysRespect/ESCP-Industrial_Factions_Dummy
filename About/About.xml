@@ -10,4 +10,7 @@
 	</supportedVersions>
 	<description>A dummy mod that enables industrial non-player factions for the ESCP races.
 	</description>
+	<loadAfter>
+		<li>SirMashedPotato.ESCP.RaceTools</li>
+	</loadAfter>
 </ModMetaData>
