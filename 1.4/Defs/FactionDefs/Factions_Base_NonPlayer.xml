@@ -18,6 +18,7 @@
 		<pawnGroupMakers Inherit="false"/>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<raidLootMaker>ESCP_GenericIndustrialRaidLootMaker</raidLootMaker>
+		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 	</FactionDef>
 	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialCivil] ========== -->
 	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Industrial" Name="ESCP_NonPlayerFactionBase_IndustrialCivil" Abstract="True">
@@ -30,6 +31,7 @@
 			<li>(0.45, 0.40, 0.90)</li>
 		</colorSpectrum>
 		<configurationListOrderPriority>10</configurationListOrderPriority>
+		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 	</FactionDef>
 	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialRough] ========== -->
 	<FactionDef ParentName="ESCP_NonPlayerFactionBase_Industrial" Name="ESCP_NonPlayerFactionBase_IndustrialRough" Abstract="True">
@@ -39,6 +41,7 @@
 		</colorSpectrum>
 		<naturalEnemy>true</naturalEnemy>
 		<configurationListOrderPriority>20</configurationListOrderPriority>
+		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 	</FactionDef>
 	<!-- ========== [ESCP_NonPlayerFactionBase_IndustrialPirate] ========== -->
 	<FactionDef ParentName="PirateBandBase" Name="ESCP_NonPlayerFactionBase_IndustrialPirate" Abstract="True">
@@ -58,5 +61,6 @@
 		<pawnGroupMakers Inherit="false"/>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<raidLootMaker>ESCP_GenericIndustrialRaidLootMaker</raidLootMaker>
+		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 	</FactionDef>
 </Defs>
