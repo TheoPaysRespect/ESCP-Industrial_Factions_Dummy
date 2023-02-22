@@ -4,13 +4,6 @@
 	<PawnKindDef ParentName="OutlanderBase" Name="ESCP_MinerPawnKindBase_Industrial" Abstract="True">
 		<label>miner</label>
 		<combatPower>40</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>Miner</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
@@ -34,13 +27,6 @@
 	<PawnKindDef ParentName="OutlanderBase" Name="ESCP_HunterPawnKindBase_Industrial" Abstract="True">
 		<label>hunter</label>
 		<combatPower>52</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>Hunter</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
@@ -67,13 +53,6 @@
 	<PawnKindDef ParentName="OutlanderBase" Name="ESCP_LoggerPawnKindBase_Industrial" Abstract="True">
 		<label>logger</label>
 		<combatPower>35</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>Logger</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
@@ -98,13 +77,6 @@
 	<PawnKindDef ParentName="OutlanderBase" Name="ESCP_FarmerPawnKindBase_Industrial" Abstract="True">
 		<label>farmer</label>
 		<combatPower>35</combatPower>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesAdulthood>
-					<li>Farmer</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>0.2~2.0</gearHealthRange>
