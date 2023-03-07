@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!-- Make sure to MayRequire the individual pawnKinds -->
 	<!-- ==========[ESCP_MinerPawnKindBase_Industrial]========== -->
 	<PawnKindDef ParentName="OutlanderBase" Name="ESCP_MinerPawnKindBase_Industrial" Abstract="True">
 		<label>miner</label>

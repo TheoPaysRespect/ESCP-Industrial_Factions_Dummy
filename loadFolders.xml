@@ -5,6 +5,5 @@
 	</v1.3>
 	<v1.4>
 		<li>1.4</li>
-		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
 	</v1.4>
 </loadFolders>

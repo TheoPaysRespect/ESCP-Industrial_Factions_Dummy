@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Make sure to MayRequire the individual pawnKinds -->
+	<!-- ==========[ESCP_MinerPawnKindBase_Industrial]========== -->
+	<PawnKindDef ParentName="VillagerBase" Name="ESCP_ChildPawnKindBase_Industrial" Abstract="True">
+		<isFighter>false</isFighter>
+		<weaponTags/>
+		<weaponMoney>0</weaponMoney>
+		<pawnGroupDevelopmentStage>Child</pawnGroupDevelopmentStage>
+	</PawnKindDef>
+</Defs>
