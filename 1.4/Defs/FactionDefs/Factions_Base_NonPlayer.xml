@@ -46,9 +46,8 @@
 	<FactionDef ParentName="PirateBandBase" Name="ESCP_NonPlayerFactionBase_IndustrialPirate" Abstract="True">
 		<allowedCultures Inherit="False"/>
 		<structureMemeWeights Inherit="False">
-			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Archist>
-			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistEmbodied>
-			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<ESCP_Structure_OriginDaedricCult MayRequire="Ludeon.RimWorld.Ideology">1</ESCP_Structure_OriginDaedricCult>
 			<ESCP_Structure_OriginLorkhanCult MayRequire="Ludeon.RimWorld.Ideology">1</ESCP_Structure_OriginLorkhanCult>
 		</structureMemeWeights>
 		<xenotypeSet Inherit="False">
