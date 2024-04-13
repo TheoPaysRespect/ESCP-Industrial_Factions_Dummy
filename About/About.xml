@@ -7,6 +7,7 @@
 	<supportedVersions>
     	<li>1.3</li>
     	<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>A dummy mod that enables industrial non-player factions for the ESCP races.
 	</description>
